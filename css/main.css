@@ -1,13 +1,20 @@
 body {
 	background-color: #EFEFEF;
+	margin: 0;
 }
 /* NAV Style*/
 .top li {
-	text-align: right;
-	width: 90%;
 	padding-top: 0;
 	display: inline-block;
 
+}
+.top {
+	padding-top: 30px;
+}
+ul {
+	float: right;
+	padding-right: 30px;
+	font-family: 'Raleway', sans-serif;
 }
 .top a {
 	text-decoration: none;
@@ -22,9 +29,126 @@ body {
 }
 #landscape {
 	text-align: center;
-	width: 960px;
 	margin: 0 auto 0 auto;
 }
+#land {
+	width: 95%;
+}
+hr {
+	width: 95%;
+}
+h3 {
+	float: left;
+	padding-left: 40px;
+	font-family: 'Dancing Script', cursive;
+}
+#bottom-content h2 {
+	font-family: 'Dancing Script', cursive;
+}
+#about {
+	float: left;
+	width: 45%;
+	margin-left: 40px;
+}
+#work {
+	float: right;
+	width: 45%;
+	margin-right: 40px;
+}
+#about h3 {
+	text-align: center;
+	color: pink;
+	margin: 20px 230px;
+}
+#work h3 {
+	text-align: center;
+	margin: 20px 230px;
+	color: pink;
+}
+#about p {
+	text-align: left;
+}
+#work p {
+	text-align: left;
+	padding-left: 40px;
+}
+.row {
+	display: inline-block;
+	margin-left: 85px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+.box {
+	width: 200px;
+	display: inline-block;
+	border-radius: 6px;
+	box-shadow: 0px 0px 20px #888888;
+}
+.box img {
+	height: 150px;
+	width: 100%;
+}
+h4 {
+	margin: 0; 
+}
+.box h4, span {
+	text-align: left;
+	padding-left: 10px;
+}
+.box p {
+	margin: 2.5px;
+	padding-bottom: 5px;
+}
+#bottom-content #bottom {
+	text-align: center;
+	color: pink;
+}
+footer {
+	background-color: #2D2D2D;
+	height: 300px;
+	padding-left: 30px;
+}
+footer p {
+	color: pink;
+	padding-top: 20px;
+}
+#message {
+	height: 100px;
+	width: 380px;
+}
+#name {
+	width: 380px;
+}
+#email {
+	width: 380px;
+}
+footer input {
+	display: block;
+	background-color: #D8D8D8;
+}
+#send {
+	color: white;
+	padding-top: 5px;
+}
+#send a {
+	color: white;
+	text-decoration: none;
+}
+i {
+	color: pink;
+	display: inline-block;
+	position: absolute;
+	top: 53px;
+	left: 20px;
+}
+h2, p {
+	font-family: 'Raleway', sans-serif;
+}
+header {
+	height: 100px;
+}
+
+
 
 
 /* body content style */
